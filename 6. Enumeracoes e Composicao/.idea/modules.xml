@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/6. Enumeracoes e Composicao.iml" filepath="$PROJECT_DIR$/.idea/6. Enumeracoes e Composicao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringBuilderBlog/StringBuilderBlog.iml" filepath="$PROJECT_DIR$/StringBuilderBlog/StringBuilderBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/composicao/composicao.iml" filepath="$PROJECT_DIR$/composicao/composicao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio_funcionarios/desafio_funcionarios.iml" filepath="$PROJECT_DIR$/desafio_funcionarios/desafio_funcionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enumeracao/enumeracao.iml" filepath="$PROJECT_DIR$/enumeracao/enumeracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedidos_project/pedidos_project.iml" filepath="$PROJECT_DIR$/pedidos_project/pedidos_project.iml" />
+    </modules>
+  </component>
+</project>
