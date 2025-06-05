@@ -35,7 +35,7 @@ public class Conta {
 
 
     public void sacar(Double vlr){
-        saldo -= vlr;
+        saldo -= vlr + 5;
     }
 
     public void depositar(Double vlr){

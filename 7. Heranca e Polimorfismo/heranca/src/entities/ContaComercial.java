@@ -26,5 +26,11 @@ public class ContaComercial extends Conta{
         }
     }
 
+    @Override
+    public void sacar(Double vlr){
+       super.sacar(vlr);
+       saldo -= 2;
+    }
+
 
 }

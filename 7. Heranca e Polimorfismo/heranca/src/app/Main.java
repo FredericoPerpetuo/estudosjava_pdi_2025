@@ -35,5 +35,24 @@ public class Main {
         System.out.println("cc2 é uma instância de ContaComercial: " + (cc2 instanceof ContaComercial));
         System.out.println("c1 é uma instância de ContaPoupança: " + (cc1 instanceof ContaPoupanca));
 
+        //Exemplos do uso de sobrescrita de métodos
+        /**
+         * REGRAS
+         * Conta taxa de saque = 5
+         * Conta poupança = insenta de taxa de saque
+         * Conta comercial = além da taxa 5 de saque deve ter uma taxa de 2 totalizando uma taxa de 7 por saque
+         * O método de saque padrão está na conta e foi sobrescrito em ContaPoupança e ContaComercial.
+         * */
+
+        Conta conta1 = new Conta(201, "Maria", 1000.0);
+        conta1.sacar(200.0); //taxa 5
+        System.out.println("conta1: " + conta1.getSaldo());
+        Conta contaPoup = new ContaPoupanca(201, "João", 1000.0, 0.01);
+        contaPoup.sacar(200.0);//taxa 0
+        System.out.println("contaPoup: " + contaPoup.getSaldo());
+        Conta contaCom = new ContaComercial(201, "Sônia", 1000.0, 200.0);
+        contaCom.sacar(200.0);//taxa 7
+        System.out.println("contaCom: " + contaCom.getSaldo());
+
     }
 }
