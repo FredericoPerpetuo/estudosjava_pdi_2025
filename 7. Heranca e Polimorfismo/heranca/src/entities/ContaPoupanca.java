@@ -1,6 +1,11 @@
 package entities;
 
-public class ContaPoupanca extends Conta {
+/*
+* Final na classe impedia que a classe seja herdada
+* Final no método, impede que o método seja sobrescrito
+* */
+
+public  class ContaPoupanca extends Conta {
     private Double taxaJuros;
 
 
@@ -26,7 +31,7 @@ public class ContaPoupanca extends Conta {
     }
 
     @Override
-    public void sacar(Double vlr){
+    public final void sacar(Double vlr){
         saldo -= vlr;
     }
 }
